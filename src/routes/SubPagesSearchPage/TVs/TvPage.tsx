@@ -1,9 +1,10 @@
-import ProductSection from "../../../components/productsSection/ProductSection"
 import { TvPageDB } from "../../../data/TvPage/TvPageDB"
+import { SearchableProductSection } from "../../../components/searchableProductsSection/searchableProductsSection"
+import FilterImg from '../../../assets/FiltroY.svg'
 
 const TvPage = () => {
     return (
-        <ProductSection carrousel={false} data={TvPageDB} />
+        <SearchableProductSection carrousel={false} data={TvPageDB} img={FilterImg} />
     )
 }
 

@@ -40,7 +40,7 @@ export const TvPageDB: TvPageProps[] = [
     {
         id: 5,
         img: Tv5,
-        text: "TV AIC",
+        text: "TV AOC",
         price: 1300
     },
     {

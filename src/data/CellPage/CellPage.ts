@@ -13,19 +13,19 @@ export const CellPageDB: CellDBProps[] = [
     {
         id: 1,
         img: cel1,
-        text: "TV LG",
+        text: "Motorola",
         price: 2000
     },
     {
         id: 2,
         img: cel2,
-        text: "TV Samsung",
+        text: "Iphone 15 Pro",
         price: 1400
     },
     {
         id: 3,
         img: tel2,
-        text: "TV TCL",
+        text: "Asus Pro",
         price: 1000
     }
 ]

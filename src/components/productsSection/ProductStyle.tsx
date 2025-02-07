@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProductContainer = styled.div`
-    width: fit-content;
+    width: 155px;
     padding: 7.5px 9.5px;
 
     display: flex;
@@ -34,6 +34,7 @@ export const InfoContainer = styled.div`
 
 export const PriceContainer = styled.div`
     width: fit-content;
+    max-width: 100px;
 
     display: flex;
     flex-direction: column;

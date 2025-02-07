@@ -8,7 +8,7 @@ export interface Products {
     price: number;
 }
 
-interface ProductSectionProps {
+export interface ProductSectionProps {
     title?: string;
     data: Products[];
     carrousel: boolean;

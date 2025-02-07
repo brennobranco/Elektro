@@ -1,9 +1,10 @@
-import ProductSection from "../../../components/productsSection/ProductSection"
+import { SearchableProductSection } from "../../../components/searchableProductsSection/searchableProductsSection"
 import { CellPageDB } from "../../../data/CellPage/CellPage"
+import FilterImg from '../../../assets/FiltroY.svg'
 
 const CellPage = () => {
     return (
-        <ProductSection carrousel={false} data={CellPageDB} />
+        <SearchableProductSection carrousel={false} data={CellPageDB} img={FilterImg} />
     )
 }
 

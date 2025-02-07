@@ -1,9 +1,11 @@
-import ProductSection from "../../../components/productsSection/ProductSection"
 import { MonitorPageDB } from "../../../data/monitorPage/monitorPage"
+import FilterImg from '../../../assets/FiltroY.svg'
+import { SearchableProductSection } from "../../../components/searchableProductsSection/searchableProductsSection";
+
 
 const MonitorPage = () => {
     return (
-        <ProductSection carrousel={false} data={MonitorPageDB} />
+        <SearchableProductSection carrousel={false} data={MonitorPageDB} img={FilterImg} />
     )
 }
 

@@ -3,13 +3,15 @@ import Input from '../searchInput/SearchInput'
 
 interface SearchAndFilterProps {
     img: string;
+    onChangeText: (value: string) => void
+
 }
 
-const SearchAndFilter: React.FC<SearchAndFilterProps> = ({ img }) => {
+const SearchAndFilter: React.FC<SearchAndFilterProps> = ({ img, onChangeText }) => {
     return (
         <Container>
             <InputAndFilterContainer>
-                <Input />
+                <Input onChangeText={onChangeText} />
                 <FilterContainer>
                     <img src={img} alt="Filter Image" />
                     <p>Filtro</p>
